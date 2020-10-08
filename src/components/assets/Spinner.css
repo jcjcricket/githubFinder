@@ -1,0 +1,31 @@
+.loader {
+  margin: 0 auto;
+  border-top: 20px solid rgba(119, 136, 153, 0.123);
+  border-bottom: 20px solid  rgba(119, 136, 153, 0.123);
+  border-left: 20px solid rgba(211, 211, 211, 0.123);
+  border-right: 20px solid rgba(211, 211, 211, 0.123);
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation: spin 40s linear infinite;
+}
+
+.loader2{
+  margin: 5px 5px;
+  border-top: 20px solid rgba(211, 211, 211, 0.123);
+  border-bottom: 20px solid rgba(211, 211, 211, 0.123);
+  border-left: 20px solid rgba(119, 136, 153, 0.123);
+  border-right: 20px solid rgba(119, 136, 153, 0.123);
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  animation: spin 40s linear infinite;
+  
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(760deg)}
+}
